@@ -16,10 +16,10 @@ pub enum PeriodicFunction {
 /// Note that, frequency should be less than half the samplerate (as of the nyquist theorem).
 ///
 /// #### Functions implemented:
-/// - sine
-/// - square
-/// - triangle
-/// - sawtooth
+/// - Sine
+/// - Square
+/// - Triangle
+/// - Sawtooth
 ///
 /// **Note:** the size of the output vector is considered the samplerate,
 /// the output vector must be resized before synthesizing.
